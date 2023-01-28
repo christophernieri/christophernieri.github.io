@@ -1,13 +1,17 @@
 {
-  "name": "codekit-project",
-  "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
-  "scripts": {},
+  "name": " ",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": "",
+  "license": "",
   "author": "",
-  "license": "UNLICENSED",
-  "repository": {},
-  "private": true,
-  "dependencies": {
-    "html5-boilerplate": "^8.0.0"
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
