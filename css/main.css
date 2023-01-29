@@ -88,6 +88,14 @@ textarea {
    ========================================================================== */
 
 
+body{
+  background-image:url("../img/excuse.png");
+  background-size: 600px auto;
+  background-position: center center;
+
+  
+}
+
 img{
   max-width:100%;
 }
